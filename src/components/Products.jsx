@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Select } from "./Styled";
+import { Grid, Select } from "./Styled";
 
 export const Products = () => {
   useEffect(() => {
