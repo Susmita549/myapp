@@ -1,3 +1,5 @@
+import { PRODUCT_REQUEST } from "./actionTypes";
+
 const initState = {
   data: [],
   isLoading: false,
@@ -6,5 +8,12 @@ const initState = {
   products: [],
 };
 
-const reducer = (state = initState, { type, payload }) => {};
+const reducer = (state = initState, { type, payload }) => {
+  switch (type) {
+    case PRODUCT_REQUEST:
+    return{
+      
+  }
+}
+};
 export { reducer };
