@@ -21,11 +21,11 @@
   object-fit: cover;
 }
 .parent {
-  width: 80%;
+  width: 70%;
   border: 2px solid red;
   margin: auto;
   display: grid;
-  grid-template-columns: 15% 40% 40%;
+  grid-template-columns: 0.7fr 2fr 2fr;
   gap: 1rem;
 }
 .sub {
@@ -36,13 +36,17 @@
   margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content:right;
+  /* justify-content: space-between;
+  align-items: center; */
 }
 .sub > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+
+
 #bag {
   border: 1px solid black;
   padding: 0.9rem;
