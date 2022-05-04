@@ -6,19 +6,34 @@
 
 .product {
   border: 2px solid blue;
+  height: 90vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  
+  
+}
+.product_main{
+  border: 2px solid red;
   justify-content: centre;
   margin: 0.3rem 1.2rem;
   height: 90vh;
 }
-.product > #image {
+.product_main > #image {
   width: 100%;
   height: 100%;
-  background-color: grey;
+  
 }
-.product > #image > img {
+.product_main > #image > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.product_details{
+  border: 2px solid black;
+  justify-content: centre;
+  margin: 0.3rem 1.2rem;
+  height: 90vh;
 }
 .parent {
   width: 70%;
@@ -30,22 +45,30 @@
 }
 .sub {
   width: 45%;
-  height: 11vh;
+  height: 84%;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.sub_image {
+  width: 90%;
+  height: 16%;
   border: 1px solid black;
-  margin: auto;
-  margin-top: 0.5rem;
+  margin:  auto;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between;
   align-items: center; */
+ 
 }
-.sub > img {
+ 
+.sub_image > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
-
 
 #bag {
   border: 1px solid black;
@@ -83,6 +106,12 @@
   margin-left: 1rem;
 }
 #pinterest {
-  margin-top: 3.8rem;
-  margin-left: 2.5rem;
+  border:2px dashed red;
+  width:45%;
+  height:10%;
+  margin: 0 auto;
+}
+#pinterest > img{
+ margin-left:25%;
+ margin-top:40%;
 }

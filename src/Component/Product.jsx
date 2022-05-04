@@ -7,53 +7,53 @@ export const Product = () => {
       <div className={styles.container}>
         <div className={styles.parent}>
           <div className={styles.product}>
-          
-              <div className={styles.sub}>
+            <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651606316855_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
-              <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651252617427_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
-              <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651252617130_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
-              <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651252616871_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
-              <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651252617659_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
-              <div className={styles.sub}>
+              <div className={styles.sub_image}>
                 <img
                   src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651252617014_2-0._UX40_QL90_.jpg"
                   alt=""
                 />
               </div>
+            </div>
 
-            <div>
+            <div id={styles.pinterest}>
               <img
-                id={styles.pinterest}
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/media/3/images/footer/Pinterest_grey_1-0.jpg"
                 alt=""
               />
             </div>
           </div>
-          <div className={styles.product}>
+          <div className={styles.product_main}>
             <div id={styles.image}>
               <img
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/bashh/bashh3036434574/bashh3036434574_1651606316855_2-0._SX1000_QL90_.jpg"
@@ -61,7 +61,7 @@ export const Product = () => {
               />
             </div>
           </div>
-          <div className={styles.product}>
+          <div className={styles.product_details}>
             <h3 id={styles.head}>ba&sh + </h3>
             <p id={styles.title}>Jansan Sweater</p>
             <p id={styles.price}>₹ 18,363.60</p>
