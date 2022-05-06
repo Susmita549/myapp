@@ -1,13 +1,14 @@
 
-
-import { Main } from "./Component/Main";
+import React from 'react';
+import { Shoes } from './Component/Shoes';
+import { ShopAll } from './Component/ShopAll';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <Shoes/>
     </div>
   );
 }

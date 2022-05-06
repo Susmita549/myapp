@@ -1,11 +1,11 @@
 .container {
-  border: 3px solid green;
+  /* border: 3px solid green; */
 
   /* grid-template-columns: repeat(3,1fr) */
 }
 
 .product {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   height: 90vh;
   display:flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   
 }
 .product_main{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   justify-content: centre;
   margin: 0.3rem 1.2rem;
   height: 90vh;
@@ -30,23 +30,24 @@
   object-fit: cover;
 }
 .product_details{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   justify-content: centre;
   margin: 0.3rem 1.2rem;
   height: 90vh;
 }
 .parent {
   width: 70%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: auto;
   display: grid;
   grid-template-columns: 0.7fr 2fr 2fr;
   gap: 1rem;
+  margin-top:1rem;
 }
 .sub {
   width: 45%;
   height: 84%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -55,7 +56,7 @@
 .sub_image {
   width: 90%;
   height: 16%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin:  auto;
   display: flex;
   flex-direction: column;
@@ -71,7 +72,7 @@
 }
 
 #bag {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0.9rem;
   margin-bottom: 0.6rem;
   color: white;
@@ -106,7 +107,7 @@
   margin-left: 1rem;
 }
 #pinterest {
-  border:2px dashed red;
+  /* border:2px dashed red; */
   width:45%;
   height:10%;
   margin: 0 auto;

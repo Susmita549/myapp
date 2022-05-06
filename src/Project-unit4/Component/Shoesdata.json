@@ -1,0 +1,464 @@
+[
+
+    {
+        "id": "1",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/neous/neous3006710d92/neous3006710d92_1651173660710_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "NEOUS",
+        "title": "80mm Chost Sandals",
+        "price": "48204.45",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "2",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ptexa/ptexa300981d3b6/ptexa300981d3b6_1651266211967_2-0._UY0_QL90_.jpg",
+        "brand": "Paris Texas",
+        "title": "Wilma PVC Wedges",
+        "price": "40170.38",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "3",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cpari/cpari3002818ab4/cpari3002818ab4_1651266221354_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Chelsea Paris",
+        "title": "Claude Loafers",
+        "price": "34431.75",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "4",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/vince/vince5148210650/vince5148210650_1650288985590_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Vince",
+        "title": "Quenelle Sandals",
+        "price": "26780.25",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "5",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/castn/castn302511cb82/castn302511cb82_1651184456451_2-0._UY0_QL90_.jpg",
+        "brand": "Castaner",
+        "title": "x Altuzarra Aria Wedges",
+        "price": "37874.92",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "6",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/schut/schut312321c925/schut312321c925_1651245140479_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Schutz",
+        "title": "Leaf Strappy Sandals",
+        "price": "10559.07",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "7",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/neous/neous300631cd2d/neous300631cd2d_1651501799093_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "NEOUS",
+        "title": "80mm Tulip Sandals",
+        "price": "68480.92",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "8",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/neous/neous3006510d92/neous3006510d92_1651173679338_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "NEOUS",
+        "title": "65mm Bophy Mules",
+        "price": "65037.75",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "9",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/samed/samed422981e7cd/samed422981e7cd_1651266217577_2-0._UY0_QL90_.jpg",
+        "brand": "Sam Edelman",
+        "title": "Gunner 3 Slides",
+        "price": "8416.65",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "10",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/simil/simil305401a529/simil305401a529_1651173653600_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Simon Miller",
+        "title": "Vegan Maze Platform Sandals",
+        "price": "45526.42",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "11",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/loeff/loeff4193314a9b/loeff4193314a9b_1651270613456_2-0._UY0_QL90_.jpg",
+        "brand": " Loeffler Randall",
+        "title": "Two Band Platform Sandals",
+        "price": "22571.92",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "12",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/larro/larro3009613149/larro3009613149_1647987781556_2-0._UY0_QL90_.jpg",
+        "brand": "Larroude",
+        "title": "Miso Platform Sandals",
+        "price": "21806.78",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "13",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/defin/defin3003911de9/defin3003911de9_1651076829252_2-0._UY0_QL90_.jpg",
+        "brand": "Definery",
+        "title": "Loop Thong Footbed",
+        "price": "26780.25",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "14",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ikkii/ikkii300461c925/ikkii300461c925_1651164823018_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Inuikii",
+        "title": "Raffia Moon Platforms",
+        "price": "23337.08",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "15",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ragbo/ragbo4605411540/ragbo4605411540_1651173674734_2-0._UY0_QL90_.jpg",
+        "brand": "Rag & Bone",
+        "title": "Hera Wedges",
+        "price": "30223.42",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "16",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/neous/neous3006610d92/neous3006610d92_1651182233229_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "NEOUS",
+        "title": "80mm Venus Sandals",
+        "price": "57386.25",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "17",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/voile/voile300571cec5/voile300571cec5_1651178867824_2-0._SH20_QL90_UY365_PGshopbop-ex-sticker-3_UY365_.jpg",
+        "brand": "Voile Blanche",
+        "title": "Julia Sneakers",
+        "price": "22189.35",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "18",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/aarig/aarig3012211296/aarig3012211296_1651180145761_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Axel Arigato",
+        "title": "Dice Lo Sneakers",
+        "price": "19511.32",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "19",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/havai/havai402651cae2/havai402651cae2_1651184496927_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Havaianas",
+        "title": "Slim Animal Print Flip Flops",
+        "price": "2601.51",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "20",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/caray/caray300161aabe/caray300161aabe_1651172166168_2-0._UY0_QL90_.jpg",
+        "brand": "Carlotha Ray",
+        "title": "Scalloped Flip Flops",
+        "price": "17215.88",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "21",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/redon/redon3060227936/redon3060227936_1651159597531_2-0._UY0_QL90_.jpg",
+        "brand": "RE/DONE",
+        "title": "70S Moc Slides",
+        "price": "31753.72",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "22",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/astel/astel317301c969/astel317301c969_1651097752018_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "adidas by Stella McCartney",
+        "title": "Asmc Solarglide Sneakers",
+        "price": "15303.00",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "23",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/astel/astel317281c967/astel317281c967_1651176572096_2-1._UY0_QL90_.jpg",
+        "brand": " adidas by Stella McCartney",
+        "title": "Asmc Solarglide Sneakers",
+        "price": "15303.00",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "24",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/stela/stela218161ca2e/stela218161ca2e_1651094267817_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
+        "brand": " Stella McCartney",
+        "title": "Reclypse Polyester Sneakers",
+        "price": "52412.78",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "25",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/jande/jande304011d40a/jande304011d40a_1651006816101_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
+        "brand": "JW Anderson",
+        "title": "Chain Slides",
+        "price": "57386.25",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "26",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/swebs/swebs301601d722/swebs301601d722_1651088466046_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Sophia Webster",
+        "title": "Lia Slides",
+        "price": "17215.88",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "27",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/melis/melis20519102c9/melis20519102c9_1651075946620_2-0._UY0_QL90_.jpg",
+        "brand": "Melissa",
+        "title": "x Simon Miller Bubble Clogs",
+        "price": "16756.78",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "28",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/acndb/acndb3178513ce7/acndb3178513ce7_1650486768496_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
+        "brand": "Acne Studios",
+        "title": "Ballow High Tumbled Sneakers",
+        "price": "26780.25",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "29",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ptexa/ptexa301001cd2d/ptexa301001cd2d_1650986342065_2-0._SH20_QL90_UY365_.jpg",
+        "brand": " Paris Texas",
+        "title": "Anja PVC Mule",
+        "price": "37874.92",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "30",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cpari/cpari300241d726/cpari300241d726_1650897693450_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Chelsea Paris",
+        "title": "Trice Slides",
+        "price": "24867.38",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "31",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/filaa/filaa307561cbdb/filaa307561cbdb_1650570917620_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Fila",
+        "title": "Renno Sneakers",
+        "price": "6121.20",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "32",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/aarig/aarig301211a561/aarig301211a561_1650651319691_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Axel Arigato",
+        "title": "Marathon Dip-dye Sneakers",
+        "price": "26397.68",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "33",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/zimme/zimme425181c01e/zimme425181c01e_1650570921812_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Zimmermann",
+        "title": "Soft Gathered Tie Boots",
+        "price": "74602.12",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "34",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/larro/larro300871d6f8/larro300871d6f8_1650565272601_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Larroude",
+        "title": "Dolly Mule Lucite",
+        "price": "22189.35",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "35",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mandb/mandb3031014a9b/mandb3031014a9b_1650401940559_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
+        "brand": "Mansur Gavriel",
+        "title": "Dream Ballerina Flats",
+        "price": "30223.42",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "36",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/swebs/swebs301401c899/swebs301401c899_1650400417143_2-0._SH20_QL90_UY365_.jpg",
+        "brand": " Sophia Webster",
+        "title": "Riva Slides",
+        "price": "36344.62",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "37",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/awang/awang435941b002/awang435941b002_1625068598811_2-0._UY0_QL90_.jpg",
+        "brand": "Alexander Wang",
+        "title": "Aw Flip Flops",
+        "price": "9564.38",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "38",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ganni/ganni31085189bb/ganni31085189bb_1638562432989_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "GANNI",
+        "title": "Low Chelsea Boots",
+        "price": "32518.88",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "39",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/stuar/stuar210751071c/stuar210751071c_1643062776756_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Stuart Weitzman",
+        "title": "Sondra Boots",
+        "price": "53177.92",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "40",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/hunts/hunts20578172fb/hunts20578172fb_q2_2-0._SH20_QL90_UY365_.jpg",
+        "brand": " Hunter Boots",
+        "title": "Original Chelsea Boots",
+        "price": "10329.52",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "41",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/staud/staud3040911409/staud3040911409_1627065757008_2-0._UY0_QL90_.jpg",
+        "brand": " STAUD",
+        "title": "Gina Mules",
+        "price": "13390.12",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "42",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ismdb/ismdb307561b002/ismdb307561b002_1643997830164_2-0._UY0_QL90_.jpg",
+        "brand": "Isabel Marant",
+        "title": "Laxime Boots",
+        "price": "49352.18",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "43",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/castn/castn302541d1ba/castn302541d1ba_1651184493043_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Castaner",
+        "title": "x Altuzarra Kenda Espadrilles",
+        "price": "13772.70",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "44",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/castn/castn3024116d4e/castn3024116d4e_1643225679976_2-0._UY0_QL90_.jpg",
+        "brand": "Castaner",
+        "title": "Bromelia Espadrilles",
+        "price": "16068.15",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "45",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/aqudb/aqudb3094212208/aqudb3094212208_1651094749347_2-0._SH20_QL90_UY365_PGshopbop-db-sticker-3_UY365_.jpg",
+        "brand": " Aquazzura",
+        "title": "Mirror Plexi Pumps",
+        "price": "76132.42",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      },
+      {
+        "id": "46",
+        "category": "Shoes",
+        "image":
+          "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/samed/samed4224913148/samed4224913148_1644428076496_2-0._SH20_QL90_UY365_.jpg",
+        "brand": "Sam Edelman",
+        "title": "Tabitha Booties",
+        "price": "7651.50",
+        "desc": "Fabric: PVC - Leather footbed and toe strap - Leather sole with rubber heel cap - Open toe - Covered heel"
+      }
+
+]
