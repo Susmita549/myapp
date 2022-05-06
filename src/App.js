@@ -1,14 +1,13 @@
 
 import React from 'react';
-import { Shoes } from './Component/Shoes';
-import { ShopAll } from './Component/ShopAll';
+import { CartPage } from './Project-unit4/AddToCartPage/CartPage';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Shoes/>
+      <CartPage/>
     </div>
   );
 }
