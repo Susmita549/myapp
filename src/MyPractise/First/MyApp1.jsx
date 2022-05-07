@@ -9,7 +9,7 @@ export const MyApp1 = () => {
 
       <Navbar title="Textutils" about="ABOUT"/>
       <div className="container  my-3" >
-      <TextForm title="Enter Your Text Hereee..."/>
+      <TextForm title="Enter Your Text Here..."/>
       </div>
 
     </>
