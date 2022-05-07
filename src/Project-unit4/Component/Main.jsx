@@ -1,10 +1,11 @@
 import React from "react";
-import { Product } from "./Product";
+import { Shoes } from "./Shoes";
+
 
 export const Main = () => {
   return (
     <div>
-      <Product />
+      <Shoes />
     </div>
   );
 };

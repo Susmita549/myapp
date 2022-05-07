@@ -1,13 +1,15 @@
 
 import React from 'react';
-import { CartPage } from './Project-unit4/AddToCartPage/CartPage';
+import { MyApp1 } from './MyPractise/First/MyApp1';
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <CartPage/>
+      <MyApp1/>
     </div>
   );
 }
