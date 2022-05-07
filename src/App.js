@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MyApp1 } from './MyPractise/First/MyApp1';
+import { MyApp } from './MyPractise/Fourth/MyApp';
 
 
 
@@ -9,7 +9,7 @@ import { MyApp1 } from './MyPractise/First/MyApp1';
 function App() {
   return (
     <div className="App">
-      <MyApp1/>
+      <MyApp/>
     </div>
   );
 }

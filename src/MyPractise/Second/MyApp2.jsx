@@ -3,7 +3,7 @@ import { Navbar } from './Navbar'
 import TextForm from './TextForm'
 
 
-export const MyApp1 = () => {
+export const MyApp2 = () => {
   return (
     <>
 
