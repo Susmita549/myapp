@@ -7,15 +7,18 @@ export default function TextForm(props) {
   const handleChange = () => {
     let newText = text.toUpperCase();
     setText(newText);
+    props.showAlert("Hiiiii","success")
   };
 
   const handleChange1 = () => {
     setText("Enter Your Text...");
+    props.showAlert("Hiiiii","success")
   };
 
   const handleChange2 = () => {
     let newText2 = text.toLowerCase();
     setText(newText2);
+    props.showAlert("Hiiiii","success")
   };
   // const handleOnChange=(e)=>{
   //   console.log("clicked..")
@@ -35,18 +38,32 @@ export default function TextForm(props) {
   ];
   const changeColor = (number) => {
     document.getElementById("myBox").style.color = color[number];
+    props.showAlert("Hiiiii","success")
   };
 
   const speak = () => {
     let msg = new SpeechSynthesisUtterance();
     msg.text = text;
     window.speechSynthesis.speak(msg);
+    props.showAlert("Hiiiii","success")
   };
+
+  const handleCopy=() => {
+    let text=document.getElementById("myBox")
+    text.select()
+    navigator.clipboard.writeText(text.value)
+    props.showAlert("Hiiiii","success")
+  };
+  const handleExtraSpace=() => {
+    let newText=text.split(/[ ]+/)
+    setText(newText.join(" "))
+    props.showAlert("Hiiiii","success")
+  }
 
   return (
     <>
-      <div className="container border border-primary py-3">
-        <h4>{props.title}</h4>
+      <div className="container py-3 style={{color:props.mode==='light'?'black':'white'}}">
+        <h4 style={{color:props.mode==='light'?'black':'white'}}>{props.title}</h4>
         <div className="mb-3">
           <textarea
             className="form-control"
@@ -54,6 +71,7 @@ export default function TextForm(props) {
             id="myBox"
             rows="3"
             onChange={(e) => setText(e.target.value)}
+            style={{backgroundColor:props.mode==='light'?'grey':'white',color:props.mode==='light'?'white':'black'}}
           ></textarea>
         </div>
         <button className="btn btn-info" onClick={handleChange}>
@@ -79,15 +97,29 @@ export default function TextForm(props) {
         >
           Speak
         </button>
+        <button
+          className="btn btn-primary mx-1"
+          type="button"
+          onClick={handleCopy}
+        >
+           Copy
+        </button>
+        <button
+          className="btn btn-primary mx-1"
+          type="button"
+          onClick={handleExtraSpace}
+        >
+          Remove ExtraSpace
+        </button>
       </div>
-      <div className="container my-3  border border-danger">
+      <div className="container my-3 "style={{color:props.mode==='dark'?'white':'black'}} >
         <h1>Enter Text Summary</h1>
         <p>
           {text.split(" ").length}-words and {text.length}-characters
         </p>
         <p>{0.008 * text.split(" ").length} minutes to read.</p>
         <h3>preview</h3>
-        <p>{text}</p>
+        <p>{text.length>0?text:"Write Something in the Textbox"}</p>
       </div>
     </>
   );

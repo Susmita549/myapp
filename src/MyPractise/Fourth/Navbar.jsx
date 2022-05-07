@@ -5,7 +5,7 @@ export const Navbar = (props) => {
     <>
        <div className="container my-3" >
 
-       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
   <div className="container-fluid">
     <a className="navbar-brand" href="/">{props.title}</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +32,15 @@ export const Navbar = (props) => {
         </li>
        
       </ul>
+
+     
       
+      {/* <button onClick={props.handleClick}>toggle</button> */}
     </div>
+    <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`} >
+        <input className="form-check-input" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckDefault"/>
+        <label className="form-check-label" htmlFor="flexSwitchCheckDefault" >Toggle</label>
+      </div>
   </div>
 </nav>
 
