@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { MyApp } from './MyPractise/Fifth_Router/MyApp';
+
+import Form from './Practise/Form/Form';
 
 
 
@@ -9,7 +10,7 @@ import { MyApp } from './MyPractise/Fifth_Router/MyApp';
 function App() {
   return (
     <div className="App">
-      <MyApp/>
+      <Form/>
     </div>
   );
 }
