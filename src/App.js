@@ -1,8 +1,9 @@
 
 import React from 'react';
+import Statewise from './Practise/CovidData/Statewise';
 
 
-import Login from './Practise/Login_Form/Login';
+
 
 
 
@@ -11,7 +12,7 @@ import Login from './Practise/Login_Form/Login';
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <Statewise/>
     </div>
   );
 }
