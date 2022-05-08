@@ -1,7 +1,8 @@
 
 import React from 'react';
 
-import Form from './Practise/Form/Form';
+
+import Login from './Practise/Login_Form/Login';
 
 
 
@@ -10,7 +11,7 @@ import Form from './Practise/Form/Form';
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Login/>
     </div>
   );
 }
