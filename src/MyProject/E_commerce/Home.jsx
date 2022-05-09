@@ -1,4 +1,5 @@
 import React from 'react'
+import Product from './Product'
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
   </button>
 </div>
     </div>
+    <Product/>
     </>
   )
 }
