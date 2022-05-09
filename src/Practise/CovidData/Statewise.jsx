@@ -4,10 +4,10 @@ const Statewise = () => {
     const[data,setData]=useState([])
 
     const getCovidData = async () => {
-        const res = await fetch("https://pokeapi.co/api/v2/pokemon/")
+        const res = await fetch("https://fakestoreapi.com/users")
         const data = await res.json()
-        console.log(data.results)
-        setData(data.results)
+        console.log(data)
+        setData(data)
         //console.log(setData)
     }
     useEffect(()=>{
@@ -22,8 +22,16 @@ const Statewise = () => {
            return(
             <>
             
-            <h1>{elem.name}</h1>
-            <img src={elem.url} alt="" />
+            <h1>{elem.address.city}</h1>
+            <p>{elem.address.street}</p>
+            <p>email:{elem.email}</p>
+            <p>id:{elem.id}</p>
+            <p>{elem.name.firstname}</p>
+            <p>{elem.name.lastname}</p>
+            <p>{elem.password}</p>
+            <p>{elem.phone}</p>
+            <p>{elem.username}</p>
+           
             </>
             
            )

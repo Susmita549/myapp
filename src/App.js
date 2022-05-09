@@ -1,18 +1,11 @@
+import React from "react";
 
-import React from 'react';
-import Statewise from './Practise/CovidData/Statewise';
-
-
-
-
-
-
-
+import MyApp from "./MyProject/E_commerce/MyApp";
 
 function App() {
   return (
     <div className="App">
-      <Statewise/>
+      <MyApp />
     </div>
   );
 }
