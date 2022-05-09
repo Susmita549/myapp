@@ -6,6 +6,7 @@ import Signup from './Button/Signup'
 const Header = () => {
   return (
     <>
+    
      <div>
      <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid py-2">
@@ -29,11 +30,12 @@ const Header = () => {
           <Link className="nav-link " to="/contact">Contact</Link>
         </li>
       </ul>
-     
+      
     </div>
     <Link className="navbar-brand mx-auto fw-bold " to="/">APPLE MART</Link>
-    <Login/>
     <Signup/>
+    <Login/>
+    
   </div>
 </nav>
      </div>
