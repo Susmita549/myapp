@@ -4,7 +4,6 @@ import data from './Data.json'
 import './product.css'
 
 const Product = () => {
-  console.log(data)
 
 
   const cartItem =(elem)=>{
@@ -17,7 +16,7 @@ const Product = () => {
            <p className="card-title ">{elem.category}</p>
            <p className="card-title ">{elem.rating.rate}⭐</p>
            <p className="card-title ">Available:{elem.rating.count}</p>
-           <p className="lead">₹ {elem.price}</p>
+           <h3 className="card-title">₹ {elem.price}</h3>
            <Link className="btn btn-primary"to={`/products/${elem.id}`}>Buy Now</Link>
 
          </div>
