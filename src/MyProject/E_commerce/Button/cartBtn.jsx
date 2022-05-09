@@ -1,9 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const cartBtn = () => {
+const CartBtn = () => {
   return (
-    <div>cartBtn</div>
+    <>
+    
+      <Link to="/cart" class="btn btn-primary mx-2">
+       <span className="fa fa-shopping-cart me-1 "></span> Cart ( )
+        </Link>
+    
+    </>
   )
 }
 
-export default cartBtn
+export default CartBtn

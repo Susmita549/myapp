@@ -11,7 +11,7 @@ const Signup = () => {
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
         >
-          <span className="fa fa- me-2"></span>Register
+          <span className="fa fa-user-plus me-2"></span>Register
         </button>
 
         {/* <!-- Modal --> */}
