@@ -1,12 +1,13 @@
 import React from "react";
-import MyCard from "./CreditCard/MyCard";
-import RestauentDetails from './Restaurant/RestaurentDetails';
+import Main from "./Evaluation3/Main";
+import { MainRoutes } from "./Evaluation4/Routes/MainRoutes";
+
 
 function App() {
   return (
     <div className="App">
      {/* <Main/> */}
-     <RestauentDetails/>
+     <Main/>
      {/* <MyCard/> */}
     </div>
   );

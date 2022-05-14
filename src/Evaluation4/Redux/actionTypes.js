@@ -1,3 +1,5 @@
-export const PRODUCT_REQUEST="PRODUCT_REQUEST"
-export const PRODUCT_SUCCESS="PRODUCT_SUCCESS"
-export const PRODUCT_FAILURE="PRODUCT_FAILURE"
+export const GET_DATA = "GET_DATA";
+export const REQ_DATA = "REQ_DATA";
+export const ERR_DATA = "ERR_DATA";
+export const SORT_DATA = "SORT_DATA";
+export const FILTER_DATA = "FILTER_DATA";
