@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "marry": false,
+      "dept": "HR",
+      "name": "Susmita Mandal",
+      "age": "24",
+      "address": "1746(B)/135 Matru chhaya, Dwaraka Vihar, Kalarahanga Road, KIIT square, Patia, Bhubaneswar, Odisha",
+      "salary": "25",
+      "id": 1
+    },
+    {
+      "marry": false,
+      "dept": "IT",
+      "name": "Susmita Mandal",
+      "age": "24",
+      "address": "1746(B)/135 Matru chhaya, Dwaraka Vihar, Kalarahanga Road, KIIT square, Patia, Bhubaneswar, Odisha",
+      "salary": "25",
+      "id": 2
+    }
+  ]
+}
