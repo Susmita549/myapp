@@ -1,11 +1,12 @@
 import React from "react";
-
-import MyApp from "./MyProject/E_commerce/MyApp";
+import MyCard from "./CreditCard/MyCard";
 
 function App() {
   return (
     <div className="App">
-      <MyApp />
+     {/* <Main/> */}
+     {/* <RestauentDetails/> */}
+     <MyCard/>
     </div>
   );
 }
