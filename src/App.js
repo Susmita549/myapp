@@ -1,14 +1,11 @@
 import React from "react";
-import Main from "./Evaluation3/Main";
-import { MainRoutes } from "./Evaluation4/Routes/MainRoutes";
+import GroceryDetails from "./Evaluations/Sprint-1/Grocerydetails";
 
 
 function App() {
   return (
     <div className="App">
-     {/* <Main/> */}
-     <Main/>
-     {/* <MyCard/> */}
+     <GroceryDetails/>
     </div>
   );
 }
