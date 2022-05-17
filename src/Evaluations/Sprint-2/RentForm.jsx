@@ -1,12 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
+import Table from './Table';
 
 const RentForm = () => {
-    const [form,setForm]=useState({})
+    const [form,setForm]=useState({
+        
+    })
     const [rentData, setRentData] = useState([]);
     const handleChange=(e)=>{
         let inputName=e.target.name
-        if(e.target.type=="checkbox"){
+        if(e.target.type==="checkbox"){
             setForm({
                 ...form,
                 [inputName]:e.target.checked
@@ -26,7 +29,7 @@ const RentForm = () => {
         console.log(form)
 
         try{
-            let res  = await fetch("http://localhost:8080/houses",{
+            let res  = await fetch("http://localhost:5000/houses",{
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(form),
@@ -41,9 +44,7 @@ const RentForm = () => {
 
   return (
     <>
-      <div>
-          <p>{form.name}</p>
-      </div>
+ 
       <div className='container border border-primary my-5 p-3 w-50'>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -72,19 +73,20 @@ const RentForm = () => {
             
         </div>
         
-        <div className='d-flex justify-content-around p-3 w-50 mx-auto'>
+        <div className='d-flex justify-content-around p-3 '>Status:
             <div className="form-group form-check">
-                <input type="checkbox" className="form-check-input" />
+                <input type="checkbox" name="married" className="form-check-input" onChange={handleChange}/>
                 <label className="form-check-label">Married</label>
             </div>
             <div className="form-group form-check">
-                <input type="checkbox" className="form-check-input" />
+                <input type="checkbox" name="bachelor" className="form-check-input" onChange={handleChange}/>
                 <label className="form-check-label">Bachelor</label>
             </div>
         </div>
-        <input type="Submit" className="btn btn-primary w-50 mx-auto" />
+        <input type="Submit" className="btn btn-primary  " />
       </form>
       </div>
+  
     </>
   );
 }

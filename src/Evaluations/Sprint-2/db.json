@@ -1,0 +1,22 @@
+{
+  "houses": [
+    {
+      "name": "Susmita Mandal",
+      "ownername": "Susmita Mandal",
+      "address": "1746(B)/135 Matru chhaya, Dwaraka Vihar, Kalarahanga Road, KIIT square, Patia, Bhubaneswar, Odisha",
+      "areacode": "12345",
+      "rent": "10000",
+      "bachelor": true,
+      "id": 1
+    },
+    {
+      "name": "Susmita Mandal",
+      "ownername": "Susmita Mandal",
+      "address": "1746(B)/135 Matru chhaya, Dwaraka Vihar, Kalarahanga Road, KIIT square, Patia, Bhubaneswar, Odisha",
+      "areacode": "45678",
+      "rent": "3000",
+      "married": true,
+      "id": 2
+    }
+  ]
+}
