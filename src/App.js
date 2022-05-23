@@ -1,12 +1,13 @@
 import React from "react";
-import Sprint from './Evaluations/Sprint-2/Sprint';
+import GroceryDetails from './Evaluations/Sprint-1/Grocerydetails';
+
 
 
 
 function App() {
   return (
     <div className="App">
-     <Sprint/>
+     <GroceryDetails/>
     </div>
   );
 }
