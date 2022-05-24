@@ -1,5 +1,5 @@
 import React from "react";
-import GroceryDetails from './Evaluations/Sprint-1/Grocerydetails';
+import Main from "./Search_Filter/Main";
 
 
 
@@ -7,7 +7,7 @@ import GroceryDetails from './Evaluations/Sprint-1/Grocerydetails';
 function App() {
   return (
     <div className="App">
-     <GroceryDetails/>
+     <Main/>
     </div>
   );
 }
