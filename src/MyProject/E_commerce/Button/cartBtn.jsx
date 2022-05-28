@@ -9,7 +9,7 @@ const CartBtn = () => {
     <>
     
       <Link to="/cart" className="btn btn-primary mx-2">
-       <span className="fa fa-shopping-cart me-1 "></span> Cart ({state.length} )
+       <span className="fa fa-shopping-cart me-1 "></span> Cart ({} )
         </Link>
     
     </>

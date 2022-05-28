@@ -1,13 +1,13 @@
 import React from "react";
-import Main from "./Search_Filter/Main";
-
+import { MyApp } from "./MyPractise/Fifth_Router/MyApp";
+import { MyApp3 } from "./MyPractise/Third_Theme/MyApp3";
 
 
 
 function App() {
   return (
     <div className="App">
-     <Main/>
+     <MyApp3/>
     </div>
   );
 }
