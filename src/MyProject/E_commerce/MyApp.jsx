@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Header";
 import ProductDetails from "./ProductDetails";
 
-const MyApp = () => {
+const MyAppp = () => {
   return (
     <>
       <Header/>
@@ -23,4 +23,4 @@ const MyApp = () => {
   );
 };
 
-export default MyApp;
+export default MyAppp;

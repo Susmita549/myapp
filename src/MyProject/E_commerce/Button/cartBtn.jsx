@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const CartBtn = () => {
 
-  const state = useSelector((state)=>state.addItems)
+  const state = useSelector((state)=>state.addItem)
   return (
     <>
     

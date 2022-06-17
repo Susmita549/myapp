@@ -1,13 +1,15 @@
 import React from "react";
-import { MyApp } from "./MyPractise/Fifth_Router/MyApp";
-import { MyApp3 } from "./MyPractise/Third_Theme/MyApp3";
+import MyAppp from "./MyProject/E_commerce/MyApp";
+
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-     <MyApp3/>
+     <MyAppp/>
     </div>
   );
 }
