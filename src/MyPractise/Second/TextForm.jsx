@@ -45,7 +45,7 @@ export default function TextForm(props) {
 
   return (
     <>
-      <div className="container border border-primary py-3">
+      <div className="container  py-3">
         <h4>{props.title}</h4>
         <div className="mb-3">
           <textarea
@@ -80,7 +80,7 @@ export default function TextForm(props) {
           Speak
         </button>
       </div>
-      <div className="container my-3  border border-danger">
+      <div className="container my-3  ">
         <h1>Enter Text Summary</h1>
         <p>
           {text.split(" ").length}-words and {text.length}-characters

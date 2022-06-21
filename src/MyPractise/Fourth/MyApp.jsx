@@ -26,13 +26,13 @@ export const MyApp = () => {
       setMode('dark');
       document.body.style.backgroundColor="grey";
       // document.body.style.color="white"
-      showAlert("Dark","success");
+      // showAlert("Dark","success");
     }
     else{
       setMode('light');
       document.body.style.backgroundColor="pink";
       // document.body.style.color="black";
-      showAlert("Light","success");
+      // showAlert("Light","success");
     }
   }
   return (

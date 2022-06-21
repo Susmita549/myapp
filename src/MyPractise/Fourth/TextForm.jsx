@@ -7,18 +7,18 @@ export default function TextForm(props) {
   const handleChange = () => {
     let newText = text.toUpperCase();
     setText(newText);
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   };
 
   const handleChange1 = () => {
     setText("Enter Your Text...");
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   };
 
   const handleChange2 = () => {
     let newText2 = text.toLowerCase();
     setText(newText2);
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   };
   // const handleOnChange=(e)=>{
   //   console.log("clicked..")
@@ -38,26 +38,26 @@ export default function TextForm(props) {
   ];
   const changeColor = (number) => {
     document.getElementById("myBox").style.color = color[number];
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   };
 
   const speak = () => {
     let msg = new SpeechSynthesisUtterance();
     msg.text = text;
     window.speechSynthesis.speak(msg);
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   };
 
   const handleCopy=() => {
     let text=document.getElementById("myBox")
     text.select()
     navigator.clipboard.writeText(text.value)
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Text Copied","success")
   };
   const handleExtraSpace=() => {
     let newText=text.split(/[ ]+/)
     setText(newText.join(" "))
-    props.showAlert("Hiiiii","success")
+    // props.showAlert("Hiiiii","success")
   }
 
   return (
